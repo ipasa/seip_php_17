@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h3, p{
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1" width="900" align="center">
+            <tr>
+                <td colspan="3">
+                    <table border="1" bgcolor="#000000">
+                        <tr>
+                            <td width="200" height="100">
+                                <img src="assets/images/6FwtCQD.jpg" alt="Nike Logo" width="200" height="200">
+                            </td>
+                            <td width="700">
+                                <img src="assets/images/nike_wallpaper_amazing_awesome.jpg" height="200" width="700">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" height="50" bgcolor="#FFA552">
+                    <table border="1" width="900" bgcolor="#EDF0DA">
+                        <tr align="center">
+                            <td height="50"><a href="index.html">HOME</a></td>
+                            <td><a href="about.html">ABOUT</a></td>
+                            <td><a href="portfolio.html">PORTFOLIO</a></td>
+                            <td><a href="gallery.html">GALLERY</a></td>
+                            <td><a href="register.html">REGISTRATION</a></td>
+                            <td><a href="contact.html">CONTACT</a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td height="600" width="150" bgcolor="#EC7357" valign="top">
+                    <h3><u>Side Menu</u></h3>
+                </td>
+
+                <!-- third row second column -->
+                <td bgcolor="#FBFFB9" valign="top">
+                    <h3 align="center">Please give all the information properly !</h3>
+                    <hr>
+                    <Form action="" method="post">
+                        <fieldset>
+                            <legend>Registration Form</legend>
+                            
+                            <table align="center">
+                                <tr>
+                                    <td>First name : </td>
+                                    <td>
+                                        <input type="text" name="first_name" 
+                                               placeholder="Enter Your First Name" 
+                                               required
+                                               maxlength="10" 
+                                        >
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Last name : </td>
+                                    <td><input type="text" name="last_name"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Email : </td>
+                                    <td><input type="email" name="email"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Password : </td>
+                                    <td><input type="password" name="password"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Institute Name : </td>
+                                    <td>
+                                        <input type="text" name="ins_name" value="BITM" size="29" readonly>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Address : </td>
+                                    <td><textarea name="address" cols="30" rows="10"></textarea></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Phone : </td>
+                                    <td><input type="number" name="phoneNumber"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Date of Birth : </td>
+                                    <td><input type="date" name="dob"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Gender : </td>
+                                    <td>
+                                       <input type="radio" name="gender" checked value="male">Male
+                                       <input type="radio" name="gender" value="female">Female
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Image : </td>
+                                    <td><input type="file" name="image"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>District : </td>
+                                    <td>
+                                        <select name="district">
+                                            <option value="">-- Select your District --</option>
+                                            <option value="dhk">Dhaka</option>
+                                            <option value="syh">Sylhet</option>
+                                            <option value="bar">barisal</option>
+                                            <option value="raj">Ragshahi</option>
+                                            <option value="com">Comilla</option>
+                                            <option value="ctg">Chittagong</option>
+                                        </select>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Agree : </td>
+                                    <td>
+                                        <input type="checkbox" name="agree" value="agree">I agree with terms &amp; condition
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2" align="center">
+                                        <input type="submit" name="submit" value="Registration">
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </Form>
+                </td>
+                <td width="150" bgcolor="#708397"></td>
+            </tr>
+
+            <tr>
+                <td colspan="3" height="30" bgcolor="#548687">
+                    <p align="center">
+                        &copy; Hasan Hafiz Pasha - 2016
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
