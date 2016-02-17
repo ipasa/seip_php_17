@@ -1,0 +1,142 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color: #D3D0CB;
+}
+.mainContainer{
+    width: 900px;
+    margin: 0 auto;
+}
+.threeBox{
+    width: 900px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box_one{
+    float: left;
+    height: 200px;
+    width: 295px;
+    background-color: #028090;
+    margin-right: 5px;
+}
+
+.box_two{
+    float: left;
+    height: 200px;
+    width: 295px;
+    margin-right: 5px;
+    background-color: #F45B69;
+}
+.box_three{
+    float: left;
+    height: 200px;
+    width: 300px;
+    background-color: #772E25;
+}
+
+.nav{
+    float: left;
+    height: 50px;
+    width: 900px;
+    background-color: #212D40;
+}
+
+.aside1{
+    float: left;
+    height: 600px;
+    width: 200px;
+    background-color: #88292F;
+}
+.asideMain{
+    float: left;
+    height: 600px;
+    width: 695px;
+    background-color: #44344F;
+    margin-left: 5px;
+}
+.aside2{
+    float: left;
+    height: 600px;
+    width: 200px;
+    background-color: #26A96C;
+}
+.fourBox{
+    float: left;
+    width: 900px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box_footer_one{
+    float: left;
+    width: 220px;
+    margin-right: 5px;
+    height: 300px;
+    background-color: #34344A;
+}
+.box_footer_two{
+    float: left;
+    width: 220px;
+    margin-right: 5px;
+    height: 300px;
+    background-color: #80475E;
+}
+.box_footer_three{
+    float: left;
+    width: 220px;
+    margin-right: 5px;
+    height: 300px;
+    background-color: #CC5A71;
+}
+.box_footer_four{
+    float: left;
+    width: 225px;
+    height: 300px;
+    background-color: #C44536;
+}
+.footer{
+    float: left;
+    width: 900px;
+    height: 80px;
+    background-color: #F0F757;
+}
+
+ul li{
+    color: #fff;
+    float: left;
+    width: 150px;
+    height: 50px;
+    background-color: #4B3F72;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+}
+
+ul li:hover{
+    background-color: #F0F0C9;
+    transition: ease-in-out;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+}
+
+ul li a:hover{
+    color: #124E78;
+    transition: ease-in-out;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+}
