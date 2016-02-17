@@ -36,19 +36,17 @@ body{
     width: 265px;
     background-color: #772E25;
 }
-
 .nav{
     float: left;
     height: 50px;
     width: 900px;
     background-color: #212D40;
 }
-
 .aside1{
     float: left;
     height: 600px;
     width: 695px;
-    background-color: #88292F;
+    background-color: #fff;
 }
 .asideMain{
     float: left;
@@ -102,15 +100,17 @@ body{
     background-color: #F0F757;
 }
 
+/*Navigation Design*/
 ul li{
-    color: #fff;
     float: left;
+    color: #fff;
     width: 150px;
     height: 50px;
     background-color: #4B3F72;
     list-style: none;
     text-transform: uppercase;
     text-align: center;
+    border-radius: 0 20px;
 }
 ul li a{
     display: block;
@@ -125,17 +125,85 @@ ul li a{
     border-bottom-style: solid;
     border-bottom-color: #fff;
 }
-
 ul li:hover{
     background-color: #F0F0C9;
     transition: ease-in-out;
     transition-delay: 0.5s;
     transition-duration: 1s;
 }
-
 ul li a:hover{
     color: #124E78;
     transition: ease-in-out;
     transition-delay: 0.5s;
     transition-duration: 1s;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
 }
+.box_flag{
+    width: 500px;
+    height: 300px;
+}
+.circle{
+    width: 200px;
+    height: 300px;
+    background-color: #88292F;
+    /*margin-left: 225px;*/
+    background: url(../images/images.png);
+    transition: all 2s;
+    transform: skewY(30deg);
+    border:2px solid #000;
+    float: left;
+}
+.circle1{
+    width: 200px;
+    height: 300px;
+    background: url(../images/images.png);
+    transform: skewY(-200deg);
+    border:2px solid #000;
+    float: left;
+}
+.circle:hover{
+    background-color: #882956;    
+    /*transform: scale(1.2);*/
+    /*transform: rotateY(180deg) scale(1.2);*/
+}
+.half_circle_wrapper{
+    width: 110px;
+    height: 100px;
+    margin: 100px auto;
+}
+.half_circle{
+    width: 50px;
+    height: 100px;
+    background-color: #fff;
+    float: left;
+    margin-right: 5px;
+}
+
+.half_circle_one{
+    border-radius: 50px 0 0 50px;
+}
+.half_circle_two{
+    border-radius: 0 50px 50px 0;
+}
+
+.half_circle_vartical{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    margin-right: 5px;
+}
+.half_circle_vartical_one{
+    border-radius: 50px 50px 0 0 ;
+    margin-bottom: 5px;
+}
+.half_circle_vartical_two{
+    border-radius: 0 0 50px 50px;
+}
+
+.half_circle_four{}
+.half_circle_four_one{}
+.half_circle_four_two{}
+.half_circle_four_three{}
+.half_circle_four_four{}
