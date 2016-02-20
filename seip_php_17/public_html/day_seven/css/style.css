@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+.box_one{
+	float: left;
+    width: 200px;
+    height: 80px;
+    margin-right: 5px;
+    /*background-color: #fc456c;*/
+    /*background: linear-gradient(to left, red, green, silver);*/
+    background: rgba(147,206,222,1);
+	background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+	background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 2px groove #000000;
+}
+.box_one p{
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 10px;
+}
+.box_two{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	animation: seip_php_17;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+	/*animation-direction: alternate-reverse;*/
+}
+.clearFix{
+	margin-top: 10px;
+	padding-top: 10px;
+	clear: both;
+}
+
+@keyframes seip_php_17{
+/*    from {background-color:red;}
+    to {background-color:black;}*/
+    0%   {background-color: #BCE784; }
+    25%  {background-color: #5DD39E; width:600px; }
+    50%  {background-color: #348AA7; width:300px;height: 300px;}
+    75%  {background-color: #525174; height: 600px;width:300px;}
+    100% {background-color: #513B56; height: 300px;width:300px;}
+}
