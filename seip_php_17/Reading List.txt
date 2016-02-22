@@ -10,3 +10,6 @@
 07. http://www.phpbench.com/
 
 08. https://codeanywhere.com/
+
+09. http://code.tutsplus.com/tutorials/how-to-create-a-phpmysql-powered-forum-from-scratch--net-10188
+10. http://www.lynda.com/MySQL-tutorials/PHP-MySQL-Essential-Training/119003-2.html
