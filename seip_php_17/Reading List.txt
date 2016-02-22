@@ -1,0 +1,5 @@
+01. https://teamtreehouse.com/community/choosing-languages-to-begin-backend-web-development
+02. https://www.quora.com/Do-Facebook-engineers-enjoy-programming-in-PHP
+03. https://www.quora.com/I-want-to-be-a-back-end-web-developer-What-programming-languages-should-I-learn-and-do-I-need-to-learn-HTML-and-CSS
+04. https://www.quora.com/Why-hasn-t-Facebook-migrated-away-from-PHP
+05. https://www.quora.com/Which-is-better-PHP-or-Python-Why?redirected_qid=31832
