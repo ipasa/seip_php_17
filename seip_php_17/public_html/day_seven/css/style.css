@@ -36,7 +36,8 @@ body{
 	position: relative;
 	width: 300px;
 	height: 300px;
-	animation: seip_php_17;
+	background-color: #5DD39E;
+	/*animation: seip_php_17;*/
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-out;
@@ -56,4 +57,11 @@ body{
     50%  {background-color: #348AA7; width:300px;height: 300px;}
     75%  {background-color: #525174; height: 600px;width:300px;}
     100% {background-color: #513B56; height: 300px;width:300px;}
+}
+
+.positionTest{
+	position: relative;
+	top: 500px;
+	left: 100px;
+	background-color: #513B56;
 }

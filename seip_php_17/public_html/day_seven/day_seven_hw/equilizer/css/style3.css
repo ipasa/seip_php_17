@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 22, 2016, 1:10:31 AM
+    Author     : abusohel
+*/
+.a{
+    alignment-adjust:central;
+}
+.one{
+    float: left;
+    height:100px;
+    width: 40px;
+    position: relative;
+    //background-color: #ff0033;
+   margin-left: 200px;
+    margin-top: 200px;
+    animation: s1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+ @keyframes s1{
+    0% {background-color: red; width:40px; height:100px;}
+    25% {background-color: green; width:40px; height:200px;}
+    50% {background-color: blue; width:40px; height:150px;}
+    75% {background-color: IndianRed; width:40px; height:300px;}
+    100% {background-color: yellow; width:40px; height:250px;}
+   
+}  
+.two{
+    float: left;
+     height:250px;
+     width: 40px;
+    //background-color: #ff0033;
+    //margin-left: 200px;
+    margin-top: 200px;
+    animation: s2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ @keyframes s2{
+     0% {background-color: blue; width:40px; height:260px;}
+    25% {background-color: DarkRed; width:40px; height:150px;}
+    50% {background-color: Orange; width:40px; height:190px;}
+    75% {background-color: DarkKhaki; width:40px; height:375px;}
+    100% {background-color: LightSalmon; width:40px; height:170px;}
+   
+} 
+.three{
+    float: left;
+     height:300px;
+     width: 40px;
+    //background-color: #ff0033;
+    //margin-left: 200px;
+    margin-top: 200px;
+    animation: s3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ @keyframes s3{
+    0% {background-color: GreenYellow; width:40px; height:300px;}
+    25% {background-color: Olive; width:40px; height:150px;}
+    50% {background-color: MediumAquamarine; width:40px; height:275px;}
+    75% {background-color: Lime; width:40px; height:375px;}
+    100% {background-color: SlateBlue; width:40px; height:120px;}
+   
+} 
+.four{
+    float: left;
+     height:125px;
+     width: 40px;
+    //background-color: #ff0033;
+    //margin-left: 200px;
+    margin-top: 200px;
+    animation: s4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ @keyframes s4{
+    0% {background-color: PeachPuff; width:40px; height:125px;}
+    25% {background-color: Brown; width:40px; height:205px;}
+    50% {background-color: Maroon; width:40px; height:365px;}
+    75% {background-color: Peru; width:40px; height:255px;}
+    100% {background-color: SteelBlue; width:40px; height:209px;}
+} 
+.five{
+    float: left;
+     height:205px;
+     width: 40px;
+    //background-color: #ff0033;
+    //margin-left: 200px;
+    margin-top: 200px;
+    animation: s5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ @keyframes s5{
+    0% {background-color: MediumSlateBlue; width:40px; height:205px;}
+    25% {background-color: DarkRed; width:40px; height:306px;}
+    50% {background-color: Gold; width:40px; height:405px;}
+    75% {background-color: PeachPuff; width:40px; height:365px;}
+    100% {background-color: Violet; width:40px; height:169px;}
+   
+} 
+.six{
+    float: left;
+     height:250px;
+     width: 40px;
+    //background-color: #ff0033;
+    //margin-left: 200px;
+    margin-top: 200px;
+    animation: s6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ @keyframes s6{
+     0% {background-color: MistyRose; width:40px; height:205px;}
+    25% {background-color: LightSlateGray; width:40px; height:206px;}
+    50% {background-color: SandyBrown; width:40px; height:505px;}
+    75% {background-color: Bisque; width:40px; height:395px;}
+    100% {background-color: RosyBrown; width:40px; height:289px;}
+   
+} 
+.seven{
+   float: left;
+     height:250px;
+     width: 40px;
+    //background-color: #ff0033;
+    //margin-left: 200px;
+    margin-top: 200px;
+    animation: s7;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ @keyframes s7{
+     0% {background-color: GreenYellow; width:40px; height:300px;}
+    25% {background-color: Olive; width:40px; height:150px;}
+    50% {background-color: MediumAquamarine; width:40px; height:275px;}
+    75% {background-color: Lime; width:40px; height:375px;}
+    100% {background-color: SlateBlue; width:40px; height:120px;}
+   
+} 
+.eight{
+    float: left;
+     height:250px;
+     width: 40px;
+    //background-color: #ff0033;
+    //margin-left: 200px;
+    margin-top: 200px;
+    animation: s8;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ @keyframes s8{
+    0% {background-color: PeachPuff; width:40px; height:225px;}
+    25% {background-color: Brown; width:40px; height:333px;}
+    50% {background-color: Maroon; width:40px; height:481px;}
+    75% {background-color: Peru; width:40px; height:153px;}
+    100% {background-color: SteelBlue; width:40px; height:269px;}
+} 
+.nine{
+    float: left;
+     height:250px;
+     width: 40px;
+    //background-color: #ff0033;
+    //margin-left: 200px;
+    margin-top: 200px;
+    animation: s9;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ @keyframes s9{
+     0% {background-color: red; width:40px; height:190px;}
+    25% {background-color: green; width:40px; height:300px;}
+    50% {background-color: blue; width:40px; height:540px;}
+    75% {background-color: IndianRed; width:40px; height:100px;}
+    100% {background-color: yellow; width:40px; height:450px;}
+   
+} 
+.ten{
+    float: left;
+     height:250px;
+     width: 40px;
+    //background-color: #ff0033;
+    //margin-left: 200px;
+    margin-top: 200px;
+    animation: s10;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ @keyframes s10{
+    0% {background-color: blue; width:40px; height:260px;}
+    25% {background-color: DarkRed; width:40px; height:450px;}
+    50% {background-color: Orange; width:40px; height:192px;}
+    75% {background-color: DarkKhaki; width:40px; height:475px;}
+    100% {background-color: LightSalmon; width:40px; height:222px;}
+   
+} 

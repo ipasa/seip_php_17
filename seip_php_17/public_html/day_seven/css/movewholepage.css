@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/*background-color: #000;*/
+}
+
+.box_one{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 500px;
+	animation: seip_php_17;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+/*.box_two{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	background-color: #583450;
+	animation: seip_php_17;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}*/
+@keyframes seip_php_17{
+/*    from {background-color:red;}
+    to {background-color:black;}*/
+    0%   {background:url(../images/nike_wallpaper_amazing_awesome.jpg);}
+    25%  {background:url(../images/6FwtCQD.jpg.jpg);}
+    50%  {background:url(../images/banner.jpg.jpg);}
+    75%  {background:url(../images/6FwtCQD.jpg.jpg);}
+    100% {background:url(../images/banner.jpg.jpg);}
+}
