@@ -197,3 +197,19 @@ address{
     font-size: 18px;
     margin-top: 20px;
 }
+.galleryBox{
+    height: 933px;;
+    width: 100%;
+    background-color: rgba(255, 250, 227, 0.8);
+}
+.galleryBoxContainer{
+    width: 800px;
+    /*background-color: red;*/
+    /*height: 800px;*/
+    margin: 0 auto;
+}
+.mapSection{
+    width: 600px;
+    margin: 0 auto;
+}
+
