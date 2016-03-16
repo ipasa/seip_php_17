@@ -13,3 +13,5 @@
 
 09. http://code.tutsplus.com/tutorials/how-to-create-a-phpmysql-powered-forum-from-scratch--net-10188
 10. http://www.lynda.com/MySQL-tutorials/PHP-MySQL-Essential-Training/119003-2.html
+
+Paper - https://www.inf.unibz.it/~calvanese/teaching/2016-01-PhD-RM/material/Berndtsson%20etal%20-%20Thesis%20Projects.%20A%20Guide%20for%20Students%20in%20CS%20and%20IS%20-%202008.pdf
