@@ -8,7 +8,7 @@ function insertNews($name, $product_desc, $price){
 }
 
 function index(){
-    $sql = "SELECT * FROM tbl_product";
+    $sql = "SELECT * FROM tbl_product WHERE deletion_statuS=0";
     return $sql;
 }
 
@@ -27,6 +27,7 @@ function updateSave($id, $name, $product_desc, $price){
 }
 function delete($id){
     // sql to delete a record
-    $sql = "DELETE FROM tbl_product WHERE id=$id";
+    //$sql = "DELETE FROM tbl_product WHERE id=$id";
+    $sql = "UPDATE tbl_product SET deletion_status=1 WHERE id=$id";
     return $sql;
 }
