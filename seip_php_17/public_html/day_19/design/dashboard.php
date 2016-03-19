@@ -1,33 +1,3 @@
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "corruption";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);  
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-$sql = "SELECT * FROM post";
-$result = mysqli_query($conn, $sql);
-
-if (mysqli_num_rows($result) > 0) {
-    // output data of each row
-    while($row = mysqli_fetch_assoc($result)) {
-        echo "id: " . $row["post_id"]. " - Name: " . $row["title"]. " " . $row["text"]. "<br>";
-    }
-} else {
-    echo "0 results";
-}
-
-mysqli_close($conn);
-?>
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -62,6 +32,34 @@ mysqli_close($conn);
   </head>
 
   <body>
+      <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "corruption";
+
+// Create connection
+mysql_query('SET CHARACTER SET utf8');
+mysql_query("SET SESSION collation_connection =’utf8_general_ci'");
+$conn = mysqli_connect($servername, $username, $password, $dbname);  
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+$sql = "SELECT * FROM post";
+$result = mysqli_query($conn, $sql);
+
+if (mysqli_num_rows($result) > 0) {
+    // output data of each row
+    while($row = mysqli_fetch_assoc($result)) {
+        echo "id: " . $row["post_id"]. " - Name: " . $row["title"]. " " . $row["text"]. "<br>";
+    }
+} else {
+    echo "0 results";
+}
+
+mysqli_close($conn);
+?>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
