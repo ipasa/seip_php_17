@@ -79,12 +79,28 @@
         
         <script>
             function my_function(value){
-                var value = this.value;
                 
                 var first_number  =   Number(document.getElementById('firstNumber').value);
                 var second_number =   Number(document.getElementById('secondNumber').value);
                 
-                var calculation =  first_number+second_number;                 
+                switch(value){
+                    case '+':
+                        var calculation =  first_number+second_number; 
+                        break;
+                    case '-':
+                        var calculation =  first_number-second_number; 
+                        break;
+                    case '*':
+                        var calculation =  first_number*second_number; 
+                        break;
+                    case '/':
+                        var calculation =  first_number/second_number; 
+                        break;
+                    case '%':
+                        var calculation =  first_number%second_number; 
+                        break;
+                }
+                document.getElementById('result').innerHTML  =   calculation;                
             }
         </script>
     </body>
