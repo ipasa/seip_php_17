@@ -1,0 +1,200 @@
+@charset "utf-8";
+/*CSS Document*/
+
+body{font-family: 'Open Sans', sans-serif;
+	background-color:#f9f9f9;
+	color:444444;
+	padding:0px;
+	margin:0px auto;
+	}
+.container{width:1170px;
+		   margin:0 auto;
+		  }  
+figure{margin:0px;}
+img{max-width:100%;}
+
+.text-center{text-align:center;}
+
+/*Header goes here*/
+header > .container{overflow:hidden;}
+#logo{float:left;
+	width:170px;
+	}
+nav{float:right;
+	width:630px;
+	margin-top:30px;
+	}
+
+nav > ul{margin:0px;
+	padding:0px;
+	}
+nav li{display:inline-block;}
+nav a{text-decoration:none;
+	font-family:14px;
+	color:#000000;
+	text-transform:uppercase;
+	padding:0px 17px;
+	}
+/*Dummy section goes here*/
+#dummy{padding:80px 0px 70px;}
+#dummy h2{margin:0px;
+		font-size:30px;
+		font-weight:normal;
+		color:#444444;
+		}
+#dummy p{margin:0px;
+		padding:25px;
+		font-size:13px;
+		color:#727272;
+		font-weight:normal;
+		}
+		
+/*Services section goes here*/
+
+#services{margin-bottom:80px;}
+#services > .container{overflow:hidden;}
+#services h3{font-size:18px;
+			font-weight:600;
+			color:#444444;
+			text-transform:uppercase;
+			margin:0px 0px 25px;
+			}
+			
+#services figure{float:left;
+				width:338px;
+				padding:15px;
+				border:1px solid #e3e3e3;
+				background-color:#fff;
+				}
+#services figure:nth-child(3){margin:0px 30px;}
+#services h4{font-size:17px;
+			font-waight:700px;
+			}
+			
+#services p{font-size:10px;
+			color:#737373;
+			margin:0px;
+			line-height:1.65em;
+			font-weight:normal;
+			}
+			
+/*Instagram section goes here*/
+#instagram{background-color:#2c2c2c;
+			padding:80px 0px;
+			}
+			
+#instagram h3{font-size:18px;
+				color:#d5d5d5;
+				text-transform:uppercase;
+				}
+				
+#instagram > .container > div{overflow:hidden;
+							position:relative;
+							margin-bottom:35px;
+							}
+				
+#instagram figure{float:left;
+				width:373px;
+				}
+#instagram figure:nth-child(2){margin:0px 25px;}
+
+.mask{display:none;}
+.mask > h2{margin-top:120px;
+			font-size:36px;
+			font-weight:normal;
+			}
+
+#instagram figure:hover .mask{display:block;
+							background-color:#eeeeee;
+							position:absolute;
+							top:0px;
+							width:373px;
+							height:314px;
+							}
+#instagram #instagramPage{display:block;
+							color:#eeeeee;
+							text-decoration:none;
+							text-transform:uppercase;
+							width:170px;
+							margin:0 auto;
+							padding:12px 8px 12px 10px;
+							border:1px solid #eeeeee;
+							}					
+							
+#instagram #instagramPage > img{margin:0px 7px;}
+/*Journal section goes here*/
+#journal{background-color:#f9f9f9;
+			margin-top:75px;
+			}
+
+#journal h3{margin:0px 0px 25px;
+			font-size:16px;
+			color:#666666;
+			text-transform:uppercase;
+			}
+			
+#journal > .container{overflow:hidden;}
+
+#journal figure{float:left;
+				width:368px;
+				border:1px solid #e3e3e3;
+				background-color:#ffffff;
+				padding-bottom:20px;
+				}
+
+#journal figure:nth-child(3){margin:0px 30px;}
+#journal h5{font-size:12px;
+			color:#737373;
+			margin:26px 0px 0px;
+			}
+#journal figcaption{margin:16px 0px 22px;
+					color:#8b8b8b;
+					font-size:12px;
+					}
+
+#journal p{font-size:13px
+			color:#7e7e7e;
+			padding:20px 25px 0px 25px;
+			line-height:1.65em;
+			}
+#journal a{font-size:11px;
+			color:#7e7c7c;
+			text-decoration:none;
+			margin-left:25px;
+			text-transform:uppercase;
+			border-bottom: 1px solid #28b8d8;
+			padding-bottom:2px;
+			}
+Author section goes here
+#author{margin:70px 0px 80px;}
+#aboutMe{float:left;
+width:570px;}
+#myServices{float:right;
+width:570px;}
+#aboutMe h4{margin:0px 0px 25px;
+}
+#aboutMe {overflow:hidden;}
+#aboutMe figure{float:left;
+width:196px;}
+#aboutMe article{float:right;
+width:350px;}
+#aboutMe article > p{margin:0px;
+				 font-size:}
+				 
+#myServices h4{margin:0px 0px 22px;
+		font-size:18px;
+		text-transform:uppercase;}	
+#myServices > div{overflow:hidden;}
+#myServices > div  >p{float:left;
+		width:42;
+		margin:0px;}
+		#myServices > div  > div{float:right;
+		width:475px;
+		}
+		#myServices div > p > .camIco{color:#28b8d8;}
+		#myServices h5{font-size:17px;
+		margin:0px;}
+		#myServices div > div > p{width:475px;
+		font-size:14px;
+		line-height:1.75em;}
+		
